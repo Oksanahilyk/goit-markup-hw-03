@@ -150,10 +150,13 @@ margin-right: 0;
 
 /* стилі main WebStudio */
 .hero {
-  background: var(--background-color-dark);
+  padding-left: 452px;
+  padding-right: 452px;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
+  background: var(--background-color-dark);
+  
 }
 
 .hero-title {
@@ -166,10 +169,7 @@ margin-right: 0;
   text-transform: uppercase;
   color: var(--primary-white-color);
 }
-.pre-title {
-  margin-top: 0px;
-  font-family: inherit;
-}
+
 .hero-button {
   display: inline-block;
   font-family: inherit;
@@ -251,6 +251,7 @@ margin-right: 0;
   color: var(--title-text-color);
 }
 .card {
+  width: 270px;
   height: 368px;
   background-color: var(--primary-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
