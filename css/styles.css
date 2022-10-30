@@ -45,8 +45,7 @@ body {
 }
 
 .section {
-  width: 1600px;
-  padding: 0 94px;
+  padding: 94px 0px;
   margin: auto;
 }
 
@@ -75,6 +74,8 @@ p {
 }
 /* стилі логотипу */
 .logo {
+  padding-top: 21px;
+  padding-bottom: 21px;
   color: var(--accent-color);
   font-family: 'Raleway';
   font-style: normal;
@@ -150,17 +151,16 @@ margin-right: 0;
 
 /* стилі main WebStudio */
 .hero {
-  padding-left: 452px;
-  padding-right: 452px;
-  padding-top: 200px;
-  padding-bottom: 200px;
   text-align: center;
   background: var(--background-color-dark);
   
 }
 
 .hero-title {
+  width: 696px;
   margin-bottom: 40px;
+  margin-right: auto;
+  margin-left: auto;
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
@@ -209,6 +209,7 @@ margin-right: 0;
   width: 270px;
 }
 .benefits-title {
+  margin-bottom: 10px;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
@@ -260,8 +261,14 @@ border-radius: 0px 0px 4px 4px;
 .card + .card {
   margin-left: 30px;
 }
+.specialist-photo {
+  display: block;
+}
+.specialist-about {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .specialist-title {
-  margin-top: 30px;
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -272,6 +279,7 @@ border-radius: 0px 0px 4px 4px;
 }
 .specialist-text {
   font-size: 16px;
+  font-weight: 400;
   line-height: calc(19 / 16);
   letter-spacing: 0.03em;
   text-align: center;
@@ -329,14 +337,12 @@ border-radius: 0px 0px 4px 4px;
 .gallary-project {
   display: flex;
   flex-wrap: wrap;
+  gap: 30px;
 }
 .gallary-card {
-  margin-right: 30px;
-  margin-bottom: 30px;
-  width: 370px;
-  height: 404px;
+  flex-basis: calc((100% - 60px) / 3);
   background-color: var(--primary-white-color);
-  border: 1px solid #EEEEEE;
+  
 }
 .gallary-card:nth-child(3n) {
   margin-right: 0px;
@@ -344,23 +350,28 @@ border-radius: 0px 0px 4px 4px;
 .gallary-card:nth-last-child(-n + 3) {
   margin-bottom: 0px;
 }
+.gallary-photo {
+  display: block;
+}
+.gallary-projects {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  border: 1px solid #EEEEEE;
+}
 .gallary-title {
   display: block;
-  margin-top: 20px;
-  margin-left: 24px;
   font-size: 18px;
+  font-weight: 700;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
   color: var(--title-text-color);
   text-decoration: none;
 }
-.gallary-title:hover,
-.gallary-title:focus {
-  color: var(--accent-color);
-}
+
 .gallary-text {
-  margin-left: 24px;
   font-size: 16px;
+  font-weight: 400;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
