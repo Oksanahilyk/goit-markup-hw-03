@@ -151,6 +151,8 @@ margin-right: 0;
 
 /* стилі main WebStudio */
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
   background: var(--background-color-dark);
   
@@ -224,7 +226,7 @@ margin-right: 0;
 }
 
 .project {
-  padding-bottom: 94px;
+  padding-top: 0px;
 }
 .project-title {
   margin-bottom: 50px;
@@ -429,4 +431,6 @@ border-radius: 0px 0px 4px 4px;
 .webstudio {
   display: block;
   margin-bottom: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
